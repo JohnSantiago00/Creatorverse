@@ -1,14 +1,14 @@
 import React from "react";
 
-import Card from "../components/Card";
+import CustomCard from "../components/Card";
 
 const ShowCreators = ({ creators }) => {
   return (
     <div>
-      <h2>All Creators</h2>
-      <div className="grid-container">
+      <h2 className="text-center mb-4 text-2xl font-semibold">All Creators</h2>
+      <div className="flex flex-wrap justify-center gap-4">
         {creators.map((creator) => (
-          <Card key={creator.id} creator={creator} />
+          <CustomCard key={creator.id} creator={creator} />
         ))}
       </div>
     </div>
