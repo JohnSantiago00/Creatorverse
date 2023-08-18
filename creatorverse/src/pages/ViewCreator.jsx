@@ -40,15 +40,16 @@ const ViewCreator = () => {
           <p className="text-gray-600 mb-4">{creator.description}</p>
           <div className="flex justify-center">
             <a
-              href={creator.youtubeUrl}
+              href={creator.youtube_url}
               target="_blank"
               rel="noopener noreferrer"
               className="text-red-500 hover:text-red-600"
             >
               <FaYoutube />
             </a>
+
             <a
-              href={creator.twitterUrl}
+              href={creator.twitter_url}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-blue-600"
@@ -56,7 +57,7 @@ const ViewCreator = () => {
               <FaTwitter />
             </a>
             <a
-              href={creator.instagramUrl}
+              href={creator.instagram_url}
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-500 hover:text-purple-600"
