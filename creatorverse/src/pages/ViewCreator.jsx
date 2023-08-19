@@ -33,12 +33,16 @@ const ViewCreator = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="flex justify-center items-center h-screen bg-gray-800">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-md flex">
         <div className="w-1/2 pr-8">
-          <h3 className="text-xl font-semibold mb-2">{creator.name}</h3>
-          <p className="text-gray-600 mb-4">{creator.description}</p>
-          <div className="flex justify-center">
+          <h3 className="text-2xl text-center font-semibold mb-2">
+            {creator.name}
+          </h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-4">
+            {creator.description}
+          </p>
+          <div className="flex justify-center space-x-2">
             <a
               href={creator.youtube_url}
               target="_blank"

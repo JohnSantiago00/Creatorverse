@@ -1,35 +1,31 @@
-import supabase from "./config/supabaseClient";
-import { useState } from "react";
-import "./App.css";
-import React from "react";
-import ShowCreators from "./pages/ShowCreators";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import supabase from "./config/supabaseClient";
+import ShowCreators from "./pages/ShowCreators";
 
 function App() {
-  console.log(supabase);
-
   const [creators, setCreators] = useState([]);
 
   useEffect(() => {
     const getCreators = async () => {
       const { data, error } = await supabase.from("creators").select();
-      console.log("data: ", data);
       setCreators(data);
     };
     getCreators();
   }, []);
 
   return (
-    <>
-      <div className="App">
-        {creators.length > 0 ? (
-          <ShowCreators creators={creators} />
-        ) : (
-          <p style={{ textAlign: "center" }}>Add a creator to get started</p>
-        )}
+    <div className="bg-gray-800 min-h-screen flex items-center justify-center">
+      <div className="max-w-xl w-full p-4">
+        <div className="bg-white p-4 rounded-lg shadow">
+          {creators.length > 0 ? (
+            <ShowCreators creators={creators} />
+          ) : (
+            <p className="text-center">Add a creator to get started</p>
+          )}
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 
