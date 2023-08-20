@@ -34,8 +34,6 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='https://github.com/JohnSantiago00/Creatorverse/blob/main/creatorverse/creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/)
-
 ## Notes
 
 I encountered challenges while styling the content creator cards, but I found the Tailwind CSS framework very helpful in achieving the desired layout.
