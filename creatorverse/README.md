@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Video Walkthrough](file:///path/to/your/desktop/your_gif_filename.gif)
+👉🏿<img src='https://github.com/JohnSantiago00/Creatorverse/blob/main/creatorverse/creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/)
 
