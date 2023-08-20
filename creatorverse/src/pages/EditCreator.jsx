@@ -17,7 +17,6 @@ const EditCreator = () => {
         console.error("Error fetching creator:", error);
       } else {
         setCreator(data[0]);
-        // console.log('Fetched creator:', data[0]); // Log the fetched data
       }
     };
     getCreator();
