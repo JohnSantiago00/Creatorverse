@@ -1,6 +1,6 @@
 # WEB103 Prework - Content Creator App
 
-Submitted by: John Doe
+Submitted by: John Santiago
 
 About this web app: This web app allows users to view, edit, add, and delete content creators along with their information.
 
@@ -34,7 +34,7 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='https://github.com/JohnSantiago00/Creatorverse/blob/main/creatorverse/creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/)
+
 
 ## Notes
 
