@@ -21,7 +21,7 @@ function App() {
           {creators.length > 0 ? (
             <ShowCreators creators={creators} />
           ) : (
-            <p className="text-center">Add a creator to get started</p>
+            <p className="text-center">Add a creator to get started delete this after</p>
           )}
         </div>
       </div>
