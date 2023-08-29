@@ -72,7 +72,7 @@ const AddCreator = () => {
             <input
               name="image_url"
               type="text"
-              placeholder="Image/Video URL"
+              placeholder="Image URL"
               onChange={handleChange}
               className="mt-1 px-4 py-2 border rounded-md w-full focus:ring focus:ring-blue-300"
             />
